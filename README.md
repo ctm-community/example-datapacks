@@ -52,3 +52,7 @@ When you first clone a repository, you will be on the repository's `main` branch
 ![Create a new branch](images/create-a-new-branch.png)
 
 Although the branch name could technically be anything, it is recommended to use your username as the name of your branch to make it easier to keep track of contributions and locate the branch of specific contributors.
+
+After creating a new branch, you will want to publish it to GitHub. This option will appear to the right of the `Current branch` dropdown menu and in a blue prompt message if you have yet to make any changes to your branch.
+
+Although you can wait to do this until after you have made changes, it is recommended to publish the branch now just to make sure you have set up your local repository correctly.
