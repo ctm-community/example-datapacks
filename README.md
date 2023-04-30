@@ -45,3 +45,10 @@ If you have linked your GitHub account to GitHub Desktop, then you can clone a r
 This will bring up the `Clone a Repository` window where you can select the repository you would like to clone. If you are a member of the `ctm-community` organization, you should be able to filter the list for the repository you would like to clone. However, if you are still waiting to get added, you can also clone the repository in the `URL` tab by directly pasting in the repository's URL.
 
 ![Clone a repository](images/clone-a-repository.png)
+
+# Creating a Branch
+When you first clone a repository, you will be on the repository's `main` branch. Since this branch is the official branch, it is protected and you will not be allowed to modify it directly. Instead, you will need to create a feature branch to make your changes and you can do this by selecting the `Current branch` dropdown menu, typing in your username, and selecting `Create a new branch`:
+
+![Create a new branch](images/create-a-new-branch.png)
+
+Although the branch name could technically be anything, it is recommended to use your username as the name of your branch to make it easier to keep track of contributions and locate the branch of specific contributors.
