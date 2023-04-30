@@ -26,3 +26,22 @@ Install GitHub Desktop:
 ```
 winget install -e --id GitHub.GitHubDesktop
 ```
+
+# Cloning a Repository
+After joining the mapmakers team, you will need to clone the repository by following the instructions below for GitHub Desktop or checking out GitHub's tutorial: https://github.com/git-guides/git-clone.
+
+If using GitHub Desktop, and have never configured it before, then you will be welcomed by this screen upon launching it for the first time:
+
+![Welcome to GitHub Desktop](images/welcome-to-github-desktop.png)
+
+Select the `Sign in to GitHub.com` option to link your account and after following the prompts in your web browser, you will be asked to `Configure Git` with a window similar to this one:
+
+![Configure Git](images/configure-git.png)
+
+The default settings should work just fine so you can proceed to the next step by just clicking `Finish`.
+
+Now that you are signed in, the next step is to clone a repository which you can do by going into the `File` menu and selecting `Clone repository...` or using the keyboard shortcut `Ctrl+Shift+O`.
+
+This will bring up the `Clone a Repository` window where you can select the repository you would like to clone. If you are a member of the `ctm-community` organization, you should be able to filter the list for the repository you would like to clone. However, if you are still waiting to get added, you can also clone the repository in the `URL` tab by directly pasting in the repository's URL.
+
+![Clone a repository](images/clone-a-repository.png)
