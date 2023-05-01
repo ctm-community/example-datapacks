@@ -56,3 +56,18 @@ Although the branch name could technically be anything, it is recommended to use
 After creating a new branch, you will want to publish it to GitHub. This option will appear to the right of the `Current branch` dropdown menu and in a blue prompt message if you have yet to make any changes to your branch.
 
 Although you can wait to do this until after you have made changes, it is recommended to publish the branch now just to make sure you have set up your local repository correctly.
+
+# Submitting Changes
+After you have made modifications to your local repository, you will eventually want to submit your changes to the remote GitHub repository. To do this you will first want to make sure that you have committed and pushed your changes to the repository on GitHub and then you will need to make a pull request so that someone on the [events-team](https://github.com/orgs/ctm-community/teams/events-team) can merge your changes.
+
+To begin, open GitHub Desktop and add a descriptive commit message like "Added model for obsidian broadsword" or "Added discussion notice" as shown in the example image below:
+
+![Commit changes](images/commit-changes.png)
+
+After writing your message, click the blue commit button and you should be prompted to `Push origin` to GitHub. Then you will be able to go to GitHub's website to create a pull request for your changes. GitHub Desktop should automatically prompt you to create a pull request with a button labeled `Create Pull Request` which will take you to a webpage where you can submit the request:
+
+![Open a pull request](images/open-a-pull-request.png)
+
+At this point, it would be helpful if you write a short description of the changes you have made and then open the pull request for review by clicking on the green `Create pull request` button.
+
+A member of the `events-team` will then review your changes to try and spot any issues before informing you of changes you need to make or accepting your request and merging your changes into the `main` branch.
